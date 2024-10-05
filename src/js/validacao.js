@@ -1,6 +1,6 @@
 // Lista de usuários autorizados
 const usuariosAutorizados = [
-    { login: 'admin', senha: 'vitoria25' },
+    { login: 'admin', senha: 'admin' },
     
     
     // Adicione mais usuários conforme necessário
