@@ -1,25 +1,28 @@
-
-
-
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(../img/explore-os-melhores-gifs-de-computador-para-programadores-e-amantes-de-tecnologia-0.gif);
-    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+    margin: 0; /* Remover margens padrão */
+}
+
+.container {
+    position: relative; /* Permite que os elementos filhos sejam posicionados em relação a este contêiner */
+    width: 100%; /* Ou um valor fixo se preferir */
+    height: 100%; /* Ou um valor fixo se preferir */
 }
 
 .power-button {
     position: absolute; /* Permite o posicionamento sobre a imagem de fundo */
-    top: 64%; /* Ajuste a posição vertical do botão conforme necessário */
-    left: 71%; /* Ajuste a posição horizontal do botão conforme necessário */
-    transform: translate(-100%, -50%); /* Centraliza o botão */
-    padding: 5px 8px; /* Estilo do botão */
-    font-size: 1px;
+    top: 69%; /* Ajuste a posição vertical do botão conforme necessário */
+    left: 70%; /* Ajuste a posição horizontal do botão conforme necessário */
+    transform: translate(-50%, -50%); /* Centraliza o botão */
+    padding: 1px 4px; /* Estilo do botão */
+    font-size: 1px; /* Ajuste o tamanho da fonte */
     background-color: #bb2323; /* Cor de fundo do botão */
     color: rgb(255, 248, 248); /* Cor do texto do botão */
     border: none; /* Remove borda */
