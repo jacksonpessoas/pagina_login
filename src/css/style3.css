@@ -1,0 +1,13 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('../img/pc-computer.gif');
+    background-size: contain; /* Ajusta a imagem para caber dentro da tela sem cortá-la */
+    background-repeat: no-repeat;
+    background-position: center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Faz com que a imagem fique fixa no fundo, mesmo com rolagem */
+}

@@ -1,0 +1,113 @@
+body {
+    font-family: sans-serif;
+    background-color: #101026;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/5501609ee45d514d1f2c4a63502045e2.gif);
+    /*background-image: url(../img/fundo\ tela\ principal.png);*/
+    background-color: rgba(255, 255, 255, 1.5);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box_login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 460px;
+
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 2px solid rgba(255, 255, 255, .2);
+
+}
+
+.box_login .title {
+    color: rgb(224, 218, 218);
+    font-size: 24px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(136, 136, 136);
+
+}
+.box_login .title2 {
+    color: rgb(224, 218, 218);
+    font-size: 14px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+
+
+}
+
+.box_login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 32px;
+}
+
+.box_login input {
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+    height: 48px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding-left: 16px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+}
+
+.box_login input:focus {
+    border: 2px solid rgba(255, 255, 255, .3);
+
+}
+
+.box_login input::placeholder {
+    color: #ccc;
+}
+
+.box_login button {
+    color: #fff;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+    border-radius: 10px;
+
+}
+
+.box_login button:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+}
+
+.box_login button:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(250, 250, 250, 0.1); /* Cor de fundo leve para o rodapé */
+    width: 100%; /* Faz com que o rodapé ocupe toda a largura disponível */
+    box-sizing: border-box; /* Inclui padding na largura total */
+    position: center; /* Faz com que o rodapé fique fixo no fundo */
+    bottom: 0; /* Alinha o rodapé ao fundo da página */
+}
